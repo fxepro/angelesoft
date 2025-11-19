@@ -1,10 +1,11 @@
 [build]
-  command = "npm run build"
+  command = "npm ci && npm run build"
   # Next.js plugin handles the publish directory automatically
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18"
+  NPM_CONFIG_PRODUCTION = "false"
   NODE_ENV = "production"
 
 [[plugins]]

@@ -16,7 +16,7 @@ import {
   Monitor,
   CheckCircle,
 } from 'lucide-react';
-import { ParticleGrid } from '../particle-grid';
+import { ParticleGrid } from '@/components/particle-grid';
 
 const whatWeBuild = [
   {

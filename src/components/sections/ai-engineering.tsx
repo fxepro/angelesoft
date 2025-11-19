@@ -135,7 +135,7 @@ const whyAngelesoft = [
     { text: 'Ethical Foundations: Privacy, fairness, and data integrity built into every model.' },
 ]
 
-export function AIEngineering() {
+export default function AIEngineering() {
   return (
     <div className="bg-background">
       {/* Hero Section */}

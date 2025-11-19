@@ -1,6 +1,6 @@
 import { ContactForm } from '@/components/contact-form';
 
-export function Contact() {
+export default function Contact() {
   return (
     <section
       id="contact"

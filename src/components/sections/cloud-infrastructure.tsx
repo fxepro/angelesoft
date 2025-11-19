@@ -96,7 +96,7 @@ const whyAngelesoft = [
   { text: 'Enterprise Confidence: Proven frameworks, tested reliability, and continuous compliance.' },
 ];
 
-export function CloudInfrastructure() {
+export default function CloudInfrastructure() {
   return (
     <div className="bg-background">
       {/* Hero Section */}

@@ -92,7 +92,7 @@ const whyAngelesoft = [
   { text: 'Sustainable Intelligence: Systems that adapt and evolve with your business.' },
 ];
 
-export function CognitiveConsulting() {
+export default function CognitiveConsulting() {
   return (
     <div className="bg-background">
       {/* Hero Section */}

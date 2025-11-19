@@ -92,7 +92,7 @@ const whyAngelesoft = [
   { text: 'Transparent AI Ethics: Every experience built with trust and explainability.' },
 ];
 
-export function AiExperienceDesign() {
+export default function AiExperienceDesign() {
   return (
     <div className="bg-background">
       {/* Hero Section */}
